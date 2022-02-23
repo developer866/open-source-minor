@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    background: url(/img/background-crew-desktop.jpg) no-repeat center center/cover;
+    height: auto;
+}
+
+/* styling for my logo */
+.logo{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+/* styliny for my line */
+.line{
+    position: absolute;
+    border-top: white solid 2px;
+    width: 640px;
+    left: 150px;
+    top: 43px;
+}
+
+/* styling for nav-header */
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar ul{
+    display: flex;
+    z-index: 1;
+    background-color:rgba(255,255,255, 0.3) ;
+}
+.nav-bar ul li{
+    display: flex;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    padding: 25px;
+    color: rgba(255,255,255, 0.4);
+}
+.nav-bar ul li:first-child{
+    margin-left: 70px;
+}
+.nav-bar ul li:last-child{
+    margin-right: 100px;
+}
+.nav-number{
+    color: white;
+}
+.nav-bar ul li a:hover{
+    text-decoration: none;
+    padding: 25px;
+    font-weight: bold;
+    color: white;
+    border-bottom: white solid 3px;
+}
+
+/* meet your crew */
+.meet-crew{
+    margin-top: 50px;
+    color: white;
+}
+/* container */
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+/* image */
+.image{
+    margin-left: 300px;
+
+}
+
+/* details */
+.detail{
+    display: flex;
+    
+}
+.color-opacity{
+    color: rgba(255,255,255,0.3);
+}
+.ansari{
+    margin-top: 100px;
+}
+.ansari h2{
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 1.5rem;
+}
+.ansari h1{
+    font-size: 2.5rem;
+    margin-top: 30px;
+    color: white;
+}
+.ansari p{
+    margin-top: 50px;
+    color: rgb(241, 235, 235);
+    font-size: 19px;
+}
